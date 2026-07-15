@@ -1,0 +1,40 @@
+# Don't add a blank line before the prompt
+add_newline = false
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$python\
+$fill\
+$cmd_duration
+$character"""
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[git_status]
+style = "bold yellow"
+
+[python]
+symbol = " "
+style = "bold green"
+python_binary = "python3"
+
+[cmd_duration]
+min_time = 1000
+format = "[$duration](dimmed white)"
+
+[fill]
+symbol = " "
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[❮](bold blue)"
