@@ -35,8 +35,14 @@ git clone https://github.com/havinaccount/dotfiles
 cd dotfiles
 ```
 
+- Make it executable
+
+```: bash
+chmod +x install.sh
+```
+
 - Install using the `install.sh`:
 
 ```: sh
-sh install.sh
+./install.sh
 ```
