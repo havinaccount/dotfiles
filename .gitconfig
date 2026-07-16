@@ -1,3 +1,6 @@
-[user]
-	name = havinaccount
-	email = havinaccount@github.com
+# Please change this file according to your need
+# gpg keys and things like it are removed cause im not giving you my credentials
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

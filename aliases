@@ -1,0 +1,37 @@
+alias ll="ll -lah"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias c="clear"
+alias cd="z"
+alias zc="zi"
+
+alias ls="eza"
+alias ll="eza -lah --icons"
+alias la="eza -a --icons"
+alias tree="eza --tree --icons"
+
+# Git aliases
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+
+alias gd="git diff"
+alias gds="git diff --staged"
+
+alias gb="git branch"
+alias gco="git checkout"
+alias gsw="git switch"
+
+alias lg="git log --oneline --graph --decorate --all"
+
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+
+alias top="btop"
+alias neofetch="fastfetch"
