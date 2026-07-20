@@ -9,7 +9,6 @@ $directory\
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
 $git_status\
-$git_metrics\
 [](fg:color_aqua bg:color_blue)\
 $c\
 $rust\
@@ -28,6 +27,7 @@ $time\
 $cmd_duration\
 $jobs\
 [ ](fg:color_bg1)\
+$git_metrics\
 $line_break$character"""
 
 palette = 'gruvbox_dark'
@@ -169,9 +169,7 @@ format = "[ 󰔛 $duration ]($style)"
 
 [git_metrics]
 disabled = false
-added_style = "fg:color_green bg:color_aqua"
-deleted_style = "fg:color_red bg:color_aqua"
-format = '[+$added]($added_style)[ -$deleted]($deleted_style)'
+format = "[󰐕](fg:color_green)[ $added](fg:color_fg0)[ 󰍴](fg:color_red)[ $deleted](fg:color_fg0)"
 
 [jobs]
 symbol = ""
